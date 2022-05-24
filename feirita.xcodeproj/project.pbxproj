@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4490C3E2837521F00A9FE83 /* floverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4490C3D2837521F00A9FE83 /* floverView.swift */; };
+		D44F7614283416910018ABDE /* Romana Becker Demi Regular in Resources */ = {isa = PBXBuildFile; fileRef = D44F7612283416910018ABDE /* Romana Becker Demi Regular */; };
+		D44F7616283416BF0018ABDE /* Nunito in Resources */ = {isa = PBXBuildFile; fileRef = D44F7615283416BF0018ABDE /* Nunito */; };
+		D4A48057283723A6006C2D86 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A48056283723A6006C2D86 /* homeView.swift */; };
+		D4A480592837367B006C2D86 /* feiraloverViewCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A480582837367B006C2D86 /* feiraloverViewCellCollectionViewCell.swift */; };
+		D4A4805B28373965006C2D86 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A4805A28373965006C2D86 /* Person.swift */; };
+		D4DAC24C28375E3800A65791 /* finalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DAC24B28375E3700A65791 /* finalViewController.swift */; };
+		D4EFD378283410D30035FFAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFD377283410D30035FFAA /* AppDelegate.swift */; };
+		D4EFD37A283410D30035FFAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFD379283410D30035FFAA /* SceneDelegate.swift */; };
+		D4EFD37C283410D30035FFAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EFD37B283410D30035FFAA /* ViewController.swift */; };
+		D4EFD37F283410D30035FFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EFD37D283410D30035FFAA /* Main.storyboard */; };
+		D4EFD381283410D60035FFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EFD380283410D60035FFAA /* Assets.xcassets */; };
+		D4EFD384283410D60035FFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EFD382283410D60035FFAA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4490C3D2837521F00A9FE83 /* floverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floverView.swift; sourceTree = "<group>"; };
+		D44F7612283416910018ABDE /* Romana Becker Demi Regular */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Romana Becker Demi Regular"; path = "../../Downloads/Romana Becker Demi Regular"; sourceTree = "<group>"; };
+		D44F7615283416BF0018ABDE /* Nunito */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Nunito; path = ../../Downloads/Nunito; sourceTree = "<group>"; };
+		D4A48056283723A6006C2D86 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		D4A480582837367B006C2D86 /* feiraloverViewCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feiraloverViewCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4A4805A28373965006C2D86 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D4DAC24B28375E3700A65791 /* finalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalViewController.swift; sourceTree = "<group>"; };
+		D4EFD374283410D30035FFAA /* feirita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feirita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EFD377283410D30035FFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4EFD379283410D30035FFAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4EFD37B283410D30035FFAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4EFD37E283410D30035FFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4EFD380283410D60035FFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4EFD383283410D60035FFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4EFD385283410D60035FFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4EFD371283410D30035FFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4A4805C28374465006C2D86 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFD37B283410D30035FFAA /* ViewController.swift */,
+				D4A48056283723A6006C2D86 /* homeView.swift */,
+				D4490C3D2837521F00A9FE83 /* floverView.swift */,
+				D4DAC24B28375E3700A65791 /* finalViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D4A4805D28374477006C2D86 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4A4805A28373965006C2D86 /* Person.swift */,
+				D4A480582837367B006C2D86 /* feiraloverViewCellCollectionViewCell.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		D4A4805E28374497006C2D86 /* funcionais */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFD382283410D60035FFAA /* LaunchScreen.storyboard */,
+				D4EFD379283410D30035FFAA /* SceneDelegate.swift */,
+				D4EFD377283410D30035FFAA /* AppDelegate.swift */,
+				D4EFD385283410D60035FFAA /* Info.plist */,
+				D4EFD380283410D60035FFAA /* Assets.xcassets */,
+			);
+			name = funcionais;
+			sourceTree = "<group>";
+		};
+		D4EFD36B283410D30035FFAA = {
+			isa = PBXGroup;
+			children = (
+				D44F7615283416BF0018ABDE /* Nunito */,
+				D44F7612283416910018ABDE /* Romana Becker Demi Regular */,
+				D4EFD376283410D30035FFAA /* feirita */,
+				D4EFD375283410D30035FFAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4EFD375283410D30035FFAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFD374283410D30035FFAA /* feirita.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4EFD376283410D30035FFAA /* feirita */ = {
+			isa = PBXGroup;
+			children = (
+				D4EFD37D283410D30035FFAA /* Main.storyboard */,
+				D4A4805E28374497006C2D86 /* funcionais */,
+				D4A4805C28374465006C2D86 /* views */,
+				D4A4805D28374477006C2D86 /* classes */,
+			);
+			path = feirita;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4EFD373283410D30035FFAA /* feirita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EFD388283410D60035FFAA /* Build configuration list for PBXNativeTarget "feirita" */;
+			buildPhases = (
+				D4EFD370283410D30035FFAA /* Sources */,
+				D4EFD371283410D30035FFAA /* Frameworks */,
+				D4EFD372283410D30035FFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = feirita;
+			productName = feirita;
+			productReference = D4EFD374283410D30035FFAA /* feirita.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4EFD36C283410D30035FFAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D4EFD373283410D30035FFAA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D4EFD36F283410D30035FFAA /* Build configuration list for PBXProject "feirita" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4EFD36B283410D30035FFAA;
+			productRefGroup = D4EFD375283410D30035FFAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4EFD373283410D30035FFAA /* feirita */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4EFD372283410D30035FFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44F7616283416BF0018ABDE /* Nunito in Resources */,
+				D4EFD384283410D60035FFAA /* LaunchScreen.storyboard in Resources */,
+				D4EFD381283410D60035FFAA /* Assets.xcassets in Resources */,
+				D4EFD37F283410D30035FFAA /* Main.storyboard in Resources */,
+				D44F7614283416910018ABDE /* Romana Becker Demi Regular in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4EFD370283410D30035FFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A4805B28373965006C2D86 /* Person.swift in Sources */,
+				D4EFD37C283410D30035FFAA /* ViewController.swift in Sources */,
+				D4A48057283723A6006C2D86 /* homeView.swift in Sources */,
+				D4EFD378283410D30035FFAA /* AppDelegate.swift in Sources */,
+				D4EFD37A283410D30035FFAA /* SceneDelegate.swift in Sources */,
+				D4DAC24C28375E3800A65791 /* finalViewController.swift in Sources */,
+				D4A480592837367B006C2D86 /* feiraloverViewCellCollectionViewCell.swift in Sources */,
+				D4490C3E2837521F00A9FE83 /* floverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4EFD37D283410D30035FFAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EFD37E283410D30035FFAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4EFD382283410D60035FFAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4EFD383283410D60035FFAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4EFD386283410D60035FFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4EFD387283410D60035FFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4EFD389283410D60035FFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = feirita/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biAda.feirita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4EFD38A283410D60035FFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = feirita/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biAda.feirita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4EFD36F283410D30035FFAA /* Build configuration list for PBXProject "feirita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EFD386283410D60035FFAA /* Debug */,
+				D4EFD387283410D60035FFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EFD388283410D60035FFAA /* Build configuration list for PBXNativeTarget "feirita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EFD389283410D60035FFAA /* Debug */,
+				D4EFD38A283410D60035FFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4EFD36C283410D30035FFAA /* Project object */;
+}
